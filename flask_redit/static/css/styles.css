@@ -1,0 +1,21 @@
+body,
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  width: auto;
+  margin: 1em;
+  height: 100%;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
+  color: white;
+}
+.margeoui {
+  margin-left: 20px;
+}
+a {
+  margin-left: 0px;
+}

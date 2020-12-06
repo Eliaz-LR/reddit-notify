@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Notify</title>
+    <link rel="stylesheet" href="../static/css/styles.css" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+    <h1>Reddit Notify</h1>
+    <p>{{ msg }}</p>
+    <form method="post">
+        <label for="subr">Subbreddit</label><br>
+        <input type="text" name="subr">
+        <label> ex: r/itookapicture, you can also set multiple subbreddits ex : r/Askreddit + r/2meirl4meirl</label><br><br>
+        <label for="keywords">Key Words</label><br>
+        <input type="text" name="keywords">
+        <label> when in the title of a post on the specified sub you will get notified</label><br><br><br>
+        <input type="submit" value="Notify me !">
+    </form>
+    
+
+    <footer>
+        <p>
+            Repo for this code on my
+            <a class=margeoui href="https://github.com/Eliaz-LR/reddit-notify">Github</a>
+        </p>
+    </footer>
+</body>
+</html>
