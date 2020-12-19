@@ -7,4 +7,4 @@ A python script for getting notifications on reddit on certain keywords with an 
 
 (I dropped this personnal project so I should probably set it to private.
 I know the html AND the python in there are both really bad but hey you start somewhere ok ?
-I'll get better later god damn)
+I'll get better later)
